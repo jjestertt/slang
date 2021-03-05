@@ -1,8 +1,12 @@
 @import "./../../scssVariables";
-
+.header{
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
 .headerLogo{
   font-family: 'Pacifico', cursive;
-  padding: 15px;
-  text-align: center;
   color: $orangeColor;
 }

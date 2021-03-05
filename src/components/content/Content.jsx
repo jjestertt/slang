@@ -1,20 +1,23 @@
 import React from "react";
-import style from "./Content.module.scss"
-import ButtonRefresh from "../button/ButtonRefresh";
-
-//Right now header show only logo
-
-
-const Content = (props) => (
-        <div className={style.contentWrapper}>
-            <h2 className={style.contentTitle}>{props.title}</h2>
-            <p className={style.contentText}><b>{props.title}</b> {props.text}</p>
-            <div className={style.button}>
-                <ButtonRefresh>Refresh</ButtonRefresh>
-            </div>
-
-        </div>
-);
+import {data} from "../../data/data";
+import {useState, useEffect} from "react";
+import RandomContent from "./RandomContent/RandomContent";
 
 
+const Content = () => {
+
+    let [numItem, setNumItem] = useState(0);
+
+    //Для получения рамдомного айтема мы используем длинну массива свойства рандома и округления
+    const getRandomItem = () => {
+        const random = Math.floor(Math.random() * (data.length));
+        setNumItem(random);
+    }
+
+    useEffect(getRandomItem, []);
+
+    return (
+        <RandomContent title={data[numItem].title} text={data[numItem].text} getRandomItem={getRandomItem}/>
+    );
+}
 export default Content;

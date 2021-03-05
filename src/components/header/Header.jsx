@@ -6,7 +6,9 @@ import style from "./Header.module.scss"
 
 
 const Header = () => (
-    <h1 className={style.headerLogo}>Slang</h1>
+    <div className={style.header}>
+        <h1 className={style.headerLogo}>Slang</h1>
+    </div>
 );
 
 
