@@ -17,7 +17,8 @@ const Content = () => {
     useEffect(getRandomItem, []);
 
     return (
-        <RandomContent title={data[numItem].title} text={data[numItem].text} getRandomItem={getRandomItem}/>
+        <RandomContent title={data[numItem].title} text={data[numItem].text}
+                       img={data[numItem].img} getRandomItem={getRandomItem}/>
     );
 }
 export default Content;

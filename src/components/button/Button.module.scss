@@ -1,8 +1,14 @@
-@import "./../../scssVariables";
 
 .buttonRefresh{
+  background-color: #f2a154;
+  border: none;
   width: 70px;
   height: 70px;
   margin-bottom: 25px;
   margin-right: 10px;
+  opacity: 0.9;
+}
+.buttonRefresh:focus, .buttonRefresh:hover{
+  background-color: #f2a154;
+  border: none;
 }
