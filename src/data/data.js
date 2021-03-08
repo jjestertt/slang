@@ -1,69 +1,31 @@
 export const data = [
-    {
-        id: 1,
-        title: "Топикстартер",
-        text: "человек (или виртуал, клон) создавший новый топик — тему в форуме.",
-        img: "http://risovach.ru/upload/2020/01/mem/vanga_229261011_orig_.jpg"
+{
+        id: "1",
+        title: "La chancla",
+        text: "Spanish word for flipflop/sandal/slipper. It's what Hispanic/Latino parents (usually mothers) use to beat their child's ass when they've had it with their misbehaviour.",
+        img: "http://cdn.shopify.com/s/files/1/1924/3727/products/dbWcrDy8eLhZhWyyhccD7tsrgLHyMc-9995-front_1024x1024.png?v=1520490219",
+        link: "null"
     },
-    {
-        id: 2,
-        title: "Кибер-котлета",
-        text: "Человек считающей себя лучшим игроком в мире в той или иной компьютерной игре",
-        img: "https://yt3.ggpht.com/a/AATXAJwRL4fiL_2J1rEbKNkFdiEIiGlO4a8Tno1_dymBhQ=s900-c-k-c0xffffffff-no-rj-mo"
+{
+        id: "2",
+        title: "Durk",
+        text: "Neanderthal patriarch responsible for the great 20,000 BC fire party, having discovered wine an fire in close proximity, durk threw one hellacious rootin tootin wild cave party that 3/4 of the known world attended, it was a cave orgy of epic proportion, woolly mammoth cookouts an rock n rolling where just a few of the festivities....durk would be immortalized in many cave paintings around western an central europe, many thought to be pornographic in nature",
+        img: "https://24hourhiphop.com/wp-content/uploads/2019/05/lil-durk.jpg",
+        link: "null"
     },
-    {
-        id: 3,
-        title: "Ролить",
-        text: "Ролить - играть любую роль в какой то игре. Пример: всеми знакомая игра \"Дочки-матери\". Это ролевая игра. Такое же самое значение имеет слово \"ролить\".",
-        img: "http://risovach.ru/upload/2014/12/mem/terebonk_70360581_orig_.jpg"
+{
+        id: "3",
+        title: "Rush B Cyka Blyat",
+        text: "Phrase used exclusively in CS:GO by angry russians forgetting all sense of logic and stop thinking straight",
+        img: "https://i.ytimg.com/vi/KnOP5u9cNG4/maxresdefault.jpg",
+        link: "null"
     },
-    {
-        id: 4,
-        title: "Гидра",
-        text: "Уточнение: Hydra – интернет-магазин наркотических и психотропных веществ в \"луковичной\" сети Tor. (Username, Санкт-Петербург).",
-        img: "https://im0-tub-ru.yandex.net/i?id=9ca38852220052655ac60de448bf9206&n=13"
-    },
-    {
-        id: 5,
-        title: "Милфа",
-        text: "женщина в годах, рассматриваемая как обьект для флирта. применяется для обозначения дамы в летах от 30, необязательно рожавшую, но тем не менее..",
-        img: "https://img.ifunny.co/images/484455eb1498116504f8c8cfddb85f66c289c7c7673aba8ca9274f3ea9323d7b_1.jpg"
-    },
-    {
-        id: 6,
-        title: "Милена",
-        text: "Черный кал, при желудочно-кишечном кровотечении.",
-        img: "https://avatars.mds.yandex.net/get-zen_doc/108399/pub_5ba626b45cddf000abd92885_5ba626e3584c1f00aa3d842d/scale_1200"
-    },
-    {
-        id: 7,
-        title: "Гетто тащер",
-        text: "Человек хорошо стреляющийся на каптах (захватах территорий).",
-        img: "https://f.santrope-rp.ru/data/avatars/h/32/32602.jpg?1590504555"
-    },
-    {
-        id: 8,
-        title: "Манагер",
-        text: "менеджер — руководитель среднего звена, мелкий начальник.",
-        img: "https://товары.рф/files/images/items/19/19027z363dbae3.jpg"
-    },
-    {
-        id: 9,
-        title: "баребухи",
-        text: "burebius – мерзкий вонючий комочек. Баребухи – это волосяные скопления, состоящие из начеса нижнего белья и небольшой части фекальных выделений. Баребухи не опасны, но вызывают желание чесать заднепроходное отверстие, посему служат причиной покраснений и микроскопических язвочек на анусе",
-        img: "https://i.imgur.com/y9z6DmDh.jpg"
-    },
-    {
-        id: 10,
-        title: "Сенпай",
-        text: "Человек, с которым вы занимаетесь одним делом, но более опытный в этом деле.",
-        img: "https://onlyawp.ru/files/avatars/1582898764.jpg"
+{
+        id: "4",
+        title: "Wetter than an otter's pocket",
+        text: "A pickup line, usually used by males from the 90's with a cool Mexican mustache and a good hentai girl moan imitation. They usually hit on young people's middle-aged moms (just like Katsura), regardless of how the old woman looks.",
+        img: "https://i.ytimg.com/vi/ejcMCql8nXI/maxresdefault.jpg",
+        link: "null"
     },
 
-    // {
-    //     id: "",
-    //     title: "",
-    //     text: "",
-    //     img: "",
-    // },
 ]

@@ -6,10 +6,8 @@ export default function App() {
 
     return (
         <div className="appWrapper">
-            <div className="container">
-                <Header/>
-                <Content />
-            </div>
+            <Header/>
+            <Content/>
         </div>
     )
 }

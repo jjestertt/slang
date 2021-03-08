@@ -8,7 +8,7 @@
 
 
 
-html, body, #root, .container, .appWrapper, {
+html, body, #root, .appWrapper, .row, .col, .card{
   height: 100%;
 }
 
@@ -16,12 +16,12 @@ body{
   font-family: 'Roboto', sans-serif;
   background-color: $bgColor;
   color: $textColor;
+  position: relative;
 }
-.container{
-  max-width: 1140px;
-  padding: 0 15px 0 15px;
-  margin: 0 auto;
-}
-h1, h2, h3, h4, h5, p, a{
+
+nav .brand-logo{
   color: inherit;
+}
+.card, .card-action{
+  background-color: $gray;
 }

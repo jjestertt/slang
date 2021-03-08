@@ -3,20 +3,25 @@ import ButtonRefresh from "../../button/ButtonRefresh";
 
 const RandomContent = ({title, text, img, getRandomItem}) => (
     <div className={style.contentWrapper}>
-        <div className={style.content}>
-            <div>
-                <div className={style.imageBackground}>
-                    {img && <img className={style.itemImage} src={img} alt={title}/>}
+        <div className="row">
+                <div className={style.card+" card"}>
+                    <div className={style.cardImageWrapper + " card-image"}>
+                        <img className={style.cardImage} src={img} alt={title}/>
+                    </div>
+                    <div className={"card-content " + style.cardContent}>
+                        <span className="card-title">{title}</span>
+                        <p>{text}</p>
+                    </div>
+                    <div className={"card-action " + style.cardAction}>
+                        <a href="/#">Like</a>
+                        <div className={style.buttonRefresh}>
+                            <ButtonRefresh onClick={(e) => getRandomItem(e)}>Refresh</ButtonRefresh>
+                        </div>
+                    </div>
                 </div>
-                <h2 className={style.contentTitle}>{title}</h2>
-                <p className={style.contentText}>{text}</p>
-            </div>
-
-        </div>
-        <div className={style.button}>
-            <ButtonRefresh onClick={() => getRandomItem()}>Refresh</ButtonRefresh>
         </div>
     </div>
+
 )
 
 export default RandomContent;

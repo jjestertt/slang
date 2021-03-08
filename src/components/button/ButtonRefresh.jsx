@@ -1,13 +1,13 @@
 import React from "react";
-import {Button} from "antd";
 import style from "./Button.module.scss"
-
 
 
 const ButtonRefresh = props => {
     return (
         <div>
-            <Button {...props} className={style.buttonRefresh + " " + props.className} type="primary" shape="circle"/>
+            <a {...props} className={"btn-floating btn-large waves-effect waves-light " + style.buttonRefresh}>
+                <i className="material-icons">autorenew</i>
+            </a>
         </div>
     )
 }
