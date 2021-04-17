@@ -1,4 +1,4 @@
-Hey i'm create new app. 
+Hey I have created a new app. 
 ##This is dictionary slang!
 *************************************************
 I'm use plugins: 
